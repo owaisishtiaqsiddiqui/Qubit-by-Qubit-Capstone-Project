@@ -1,3 +1,5 @@
+https://www.qubitbyqubit.org/prod/images/index/qubit_logo_singleQ_white%202.svg
+
 # Qubit-by-Qubit-Capstone-Project
 
 # BB84 Quantum Key Distribution Protocol
