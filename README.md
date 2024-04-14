@@ -1,7 +1,7 @@
 ![image](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/assets/108402760/b73df0a5-8c03-4558-a25b-52ed5144934f)
 
 
-# Qubit-by-Qubit-Capstone-Project
+# Qubit by Qubit Capstone Project
 
 # BB84 Quantum Key Distribution Protocol
 
