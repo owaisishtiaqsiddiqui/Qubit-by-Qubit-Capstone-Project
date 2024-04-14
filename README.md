@@ -62,6 +62,7 @@ The script then plots the QBER as a function of the number of qubits.
 <p align="center">
   <img src="./img/Figure_1_BB84_ex_corrected.png" width="750" height="400">
 </p>
+
 ## Note
 
 This script is for educational purposes and simulates an ideal case. In a real-world scenario, the protocol would need to be adjusted to account for noise and potential eavesdropping.
