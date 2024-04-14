@@ -7,17 +7,30 @@
 
 This Python script implements the BB84 Quantum Key Distribution (QKD) protocol using the Cirq library. The BB84 protocol is a quantum cryptography protocol developed by Charles Bennett and Gilles Brassard in 1984 for secure communication.
 
+Dependencies
+The script requires the following Python libraries:
+
+cirq==0.8.2
+matplotlib==3.2.1
+numpy==1.18.2
+cirq-web==0.1.0
+
+## Manual Installation:
+**Requirements**
+
+- Python 3.6 or higher
+- Cirq library
+- Matplotlib library
+
+You can install these dependencies using pip:
+
+pip install -r requirements.txt
+
 ## Features
 
 - Simulates the BB84 protocol with a variable number of qubits.
 - Calculates the Quantum Bit Error Rate (QBER) for each simulation.
 - Plots the QBER as a function of the number of qubits.
-
-## Requirements
-
-- Python 3.6 or higher
-- Cirq library
-- Matplotlib library
 
 ## Usage
 
@@ -45,6 +58,8 @@ The script simulates the BB84 protocol as follows:
 5. The script calculates the QBER, which is the ratio of the number of bits in which Alice and Bob used the same basis but got different results, to the total number of bits where they used the same basis.
 
 The script then plots the QBER as a function of the number of qubits.
+
+![Figure_1_BB84_ex_corrected](./img/Figure_1_BB84_ex_corrected.png)
 
 ## Note
 
