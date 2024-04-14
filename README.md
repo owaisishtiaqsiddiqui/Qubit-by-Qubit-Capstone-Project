@@ -3,7 +3,7 @@
 
 # Qubit by Qubit Capstone Project
 
-# BB84 Quantum Key Distribution Protocol
+# Python Encryption Project
 
 This Python script implements the BB84 Quantum Key Distribution (QKD) protocol using the Cirq library. The BB84 protocol is a quantum cryptography protocol developed by Charles Bennett and Gilles Brassard in 1984 for secure communication.
 
