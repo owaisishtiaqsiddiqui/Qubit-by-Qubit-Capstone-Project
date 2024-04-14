@@ -1,4 +1,4 @@
-https://www.qubitbyqubit.org/prod/images/index/qubit_logo_singleQ_white%202.svg
+![image](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/assets/108402760/3a269784-86cf-406f-9c22-172062f4afbb)
 
 # Qubit-by-Qubit-Capstone-Project
 
