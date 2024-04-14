@@ -59,7 +59,7 @@ The script simulates the BB84 protocol as follows:
 
 The script then plots the QBER as a function of the number of qubits.
 
-![alt](./img/Figure_1_BB84_ex_corrected.png){: width ="50%"}
+<img src="./img/Figure_1_BB84_ex_corrected.png" width="50" height="30">
 
 ## Note
 
