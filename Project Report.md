@@ -49,27 +49,38 @@ These protocols are further divided into families of protocols,
 ### Discrete variable protocols:
 Discrete variable protocols were invented first and remain the most widely implemented. The other families of protocols focused on overcoming the practical limitations of experiments. Information is encoded in photon polarization states or weak coherent pulses phase simulating true single states of a photon, such implementation requires single photon detection techniques. Protocols like BB84 is one example.
 
+
 1. `Alice's Part`: Alice starts by taking a message as input from the user. This message is then converted into a binary string, where each character is represented by its 8-bit ASCII value.
 
 2. `Quantum Circuit Preparation`: A quantum circuit is created with as many qubits as there are bits in the message. If a bit in the message is 1, an X gate (which flips the state of a qubit from |0⟩ to |1⟩) is applied to the corresponding qubit.
 
 3. `Alice's Bases`: Alice randomly chooses a basis (either 0 or 1) for each qubit. If the chosen basis is 1, a Hadamard gate (which puts a qubit into a superposition of states) is applied to the corresponding qubit.
 
-4. `Bob's Part`: Bob also randomly chooses a basis for each qubit. The qubits are then measured, collapsing their superposition of states into a definite state of either 0 or 1.
+H --> Horizontal
+V --> Vertical
+D --> Diagonal
+A --> Anti-Diagonal
 
-5. `Key Extraction`: Alice and Bob discard the bits where they used different bases, leaving them with a shared secret key.
+|   **Basis**| $|0\rangle$ |      $|1\rangle$       |
+|----------------|-------------------------------|
+| ** + (H, V)** | $\uparrow$|$\rightarrow$|
+| **X (D, AD)**  | $\nearrow$|$\searrow$       |
 
-6. `One-Time Pad Encryption`: The key is padded with zeros until it's the same length as the original message. The message is then encrypted by taking the XOR of the message and the key.
+5. `Bob's Part`: Bob also randomly chooses a basis for each qubit. The qubits are then measured, collapsing their superposition of states into a definite state of either 0 or 1.
 
-7. `Decryption`: Bob uses the same key to decrypt the message by taking the XOR of the encrypted message and the key.
+6. `Key Extraction`: Alice and Bob discard the bits where they used different bases, leaving them with a shared secret key.
 
-8. `Conversion to ASCII`: The decrypted message is converted back into a string by interpreting each 8-bit chunk as an ASCII character.
+7. `One-Time Pad Encryption`: The key is padded with zeros until it's the same length as the original message. The message is then encrypted by taking the XOR of the message and the key.
 
-9. `Verification`: The decrypted message is compared with the original message to verify that the decryption was successful.
+8. `Decryption`: Bob uses the same key to decrypt the message by taking the XOR of the encrypted message and the key.
 
-10. `Quantum Bit Error Rate` (QBER): The QBER is calculated as the number of bits that are different between Bob's results and the original message, divided by the total number of bits.
+9. `Conversion to ASCII`: The decrypted message is converted back into a string by interpreting each 8-bit chunk as an ASCII character.
 
-11. `Visualization`: A plot is created to compare the encrypted and decrypted messages. The x-axis represents the bit index, and the y-axis represents the bit value. The encrypted message is shown in red, and the decrypted message is shown in blue.
+10. `Verification`: The decrypted message is compared with the original message to verify that the decryption was successful.
+
+11. `Quantum Bit Error Rate` (QBER): The QBER is calculated as the number of bits that are different between Bob's results and the original message, divided by the total number of bits.
+
+12. `Visualization`: A plot is created to compare the encrypted and decrypted messages. The x-axis represents the bit index, and the y-axis represents the bit value. The encrypted message is shown in red, and the decrypted message is shown in blue.
 
 
 <p align="center">
