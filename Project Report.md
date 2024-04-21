@@ -88,8 +88,7 @@ Discrete variable protocols were invented first and remain the most widely imple
 
 
 ## Acknowledgement 
-This work is done as a project for the Qubit by Qubit. I
-Team members would like to thank the organizers and Mentors for teaching the state of the art of quantum key distribution and quantum networking.
+This work is done as a project for the Qubit by Qubit. I would like to thank the organizers and Mentors for teaching the state of the art of quantum key distribution and quantum networking.
 
 ## References
 1. C. H. Bennett, and G. Brassard, "Quantum Cryptography: Public Key Distribution and Coin Tossing," 1984. 
