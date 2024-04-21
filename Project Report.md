@@ -6,6 +6,9 @@ All the important files can be located here Github Directory path to file [Qubit
 - [Problem Statement](#ProblemStatement)
   - [Description](#description)
   - [Quantum Transmission](#Quantum-Transmission)
+    - [Prepare and Measure Protocol](#Prepare-and-Measure-protocols)
+      - [Discrete variable protocols](#Discrete-variable-protocols)
+    - [Entanglement based Protocol](#Entanglement-based-protocols)
 - [Acknowledgement](#Acknowledgement)
 - [References](#references)
 
@@ -39,7 +42,7 @@ Quantum Transmission involves encoding information in quantum states or qubits, 
 1.	Prepare and Measure protocols,
 2.	Entanglement based protocols.
 
-**Prepare and Measure protocols**:
+### Prepare and Measure protocols:
 Their prime focus is on measuring the quantum states that can detect eavesdropping as much as how much data or information is intercepted.
 **Entanglement based protocols**:
 They focus on quantum states where two objects are linked together, forming a combined quantum state. In entanglement-based protocols, if an entangled pair of objects is shared between two parties and anyone tries to intercept either object can disturb the entire system revealing the presence of a third party and the amount of information they gained.
