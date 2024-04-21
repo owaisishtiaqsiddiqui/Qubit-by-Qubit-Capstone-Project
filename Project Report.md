@@ -5,6 +5,7 @@ All the important files can be located here Github Directory path to file [Qubit
 - [Personal Introduction](#Personal-introduction)
 - [Problem Statement](#ProblemStatement)
   - [Description](#description)
+  - [Quantum Transmission](#Quantum Transmission)
 - [Acknowledgement](#Acknowledgement)
 - [References](#references)
 
@@ -33,7 +34,7 @@ There are two channels:
 *	`Quantum Channel` – a communication channel with properties controlled at a physical level. It is usually an optical fiber or an atmospheric link with a direct line of sight, on this channel for QKD to work, optical losses and noise cannot be too high, but more importantly, there must be no device interacting with the information exchanged.
 *	A regular digital network link, which carries QKD signaling.
 
-**Quantum Transmission**:
+## Quantum Transmission:
 Quantum Transmission involves encoding information in quantum states or qubits, compared to classical transmission. Usually, photons are utilized for these quantum states. QKD exploits certain properties of quantum states to ensure security. There are several different protocols for quantum key distribution, but they can be divided into two main categories,
 1.	Prepare and Measure protocols,
 2.	Entanglement based protocols.
