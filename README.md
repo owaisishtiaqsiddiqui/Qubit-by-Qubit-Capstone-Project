@@ -47,12 +47,12 @@ pip install cirq matplotlib
 python BB84_ex_corrected.py
 ```
 
-### Qubit Generation: 
+## Qubit Generation: 
 
 |   **Basis**     | 0 |  1    |
 |-----------------|-------------|-----------------|
-| ** + (H, V) **  | $\uparrow$  | $\rightarrow$   |
-| ** X (D, AD) ** | $\nearrow$  | $\searrow$      |
+| **+ (H, V)**  | $\uparrow$  | $\rightarrow$   |
+| **X (D, AD)** | $\nearrow$  | $\searrow$      |
 
 H --> Horizontal
 V --> Vertical
