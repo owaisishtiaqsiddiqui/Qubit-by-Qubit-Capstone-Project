@@ -47,6 +47,21 @@ pip install cirq matplotlib
 python BB84_ex_corrected.py
 ```
 
+### Qubit Generation: 
+
+|   **Basis**     | $|0\rangle$ |  $|1\rangle$    |
+|-----------------|-------------|-----------------|
+| ** + (H, V) **  | $\uparrow$  | $\rightarrow$   |
+| ** X (D, AD) ** | $\nearrow$  | $\searrow$      |
+
+H --> Horizontal
+V --> Vertical
+D --> Diagonal
+A --> Anti-Diagonal
+
+------------------------------------
+
+
 ## How it Works
 
 The script simulates the BB84 protocol as follows:
