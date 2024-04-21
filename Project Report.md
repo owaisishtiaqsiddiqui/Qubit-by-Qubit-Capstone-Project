@@ -76,7 +76,7 @@ Discrete variable protocols were invented first and remain the most widely imple
   <img src="./img/Figure_1_BB84_ex_corrected.png" width="750" height="400">
 </p>
 
-[This](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/Qubit by Qubit Capstone Project/BB84_ex_corrected.py) script demonstrates the use of quantum mechanics for secure communication. The BB84 protocol ensures that any attempt by an eavesdropper to intercept the key will be detected, as it will introduce errors that can be detected when Alice and Bob compare their bases.
+[This](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/Qubit-by-Qubit-Capstone-Project/BB84_ex_corrected.py) script demonstrates the use of quantum mechanics for secure communication. The BB84 protocol ensures that any attempt by an eavesdropper to intercept the key will be detected, as it will introduce errors that can be detected when Alice and Bob compare their bases.
 
 
 
