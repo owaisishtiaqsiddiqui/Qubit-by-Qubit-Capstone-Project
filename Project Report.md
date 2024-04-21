@@ -5,7 +5,7 @@ All the important files can be located here Github Directory path to file [Qubit
 - [Personal Introduction](#Personal-introduction)
 - [Problem Statement](#ProblemStatement)
   - [Description](#description)
-  - [Quantum Transmission](#QuantumTransmission)
+  - [Quantum Transmission](#Quantum-Transmission)
 - [Acknowledgement](#Acknowledgement)
 - [References](#references)
 
