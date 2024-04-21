@@ -49,7 +49,7 @@ python BB84_ex_corrected.py
 
 ### Qubit Generation: 
 
-|   **Basis**     | $|0\rangle$ |  $|1\rangle$    |
+|   **Basis**     | 0 |  1    |
 |-----------------|-------------|-----------------|
 | ** + (H, V) **  | $\uparrow$  | $\rightarrow$   |
 | ** X (D, AD) ** | $\nearrow$  | $\searrow$      |
