@@ -1,4 +1,4 @@
-**Qubit x Qubit Capstone Project**
+# Qubit x Qubit Capstone Project**
 All the important files can be located here Github Directory path to file [Qubit by-Qubit-Capstone-Project/BB84_ex_corrected.py](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/tree/main/Qubit%20by%20Qubit%20Capstone%20Project)
 # :space_invader: Encryption in Python
 
