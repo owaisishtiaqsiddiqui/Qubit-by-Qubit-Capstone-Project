@@ -9,7 +9,7 @@ All the important files can be located here Github Directory path to file [Qubit
     - [Prepare and Measure Protocol](#Prepare-and-Measure-protocols)
     - [Entanglement based Protocol](#Entanglement-based-protocols)
   - [Discrete variable protocols](#Discrete-variable-protocols)
-    - [Qubit Generation](Qubit-Generation)
+    - [Qubit Generation](#Qubit-Generation)
 - [Acknowledgement](#Acknowledgement)
 - [References](#references)
 
