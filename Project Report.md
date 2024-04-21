@@ -71,6 +71,11 @@ Discrete variable protocols were invented first and remain the most widely imple
 
 11. `Visualization`: A plot is created to compare the encrypted and decrypted messages. The x-axis represents the bit index, and the y-axis represents the bit value. The encrypted message is shown in red, and the decrypted message is shown in blue.
 
+
+<p align="center">
+  <img src="./img/Figure_1_BB84_ex_corrected.png" width="750" height="400">
+</p>
+
 [This](https://github.com/owaisishtiaqsiddiqui/Qubit-by-Qubit-Capstone-Project/Qubit by Qubit Capstone Project/BB84_ex_corrected.py) script demonstrates the use of quantum mechanics for secure communication. The BB84 protocol ensures that any attempt by an eavesdropper to intercept the key will be detected, as it will introduce errors that can be detected when Alice and Bob compare their bases.
 
 
