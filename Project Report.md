@@ -49,19 +49,6 @@ These protocols are further divided into families of protocols,
 ### Discrete variable protocols:
 Discrete variable protocols were invented first and remain the most widely implemented. The other families of protocols focused on overcoming the practical limitations of experiments. Information is encoded in photon polarization states or weak coherent pulses phase simulating true single states of a photon, such implementation requires single photon detection techniques. Protocols like BB84 is one example.
 
-### Qubit Generation: 
-
-H --> Horizontal
-V --> Vertical
-D --> Diagonal
-A --> Anti-Diagonal
-
-|   **Basis**     | $|0\rangle$ |  $|1\rangle$    |
-|-----------------|-------------|-----------------|
-| ** + (H, V) **  | $\uparrow$  | $\rightarrow$   |
-| ** X (D, AD) ** | $\nearrow$  | $\searrow$      |
-
-------------------------------------
 
 
 1. `Alice's Part`: Alice starts by taking a message as input from the user. This message is then converted into a binary string, where each character is represented by its 8-bit ASCII value.
